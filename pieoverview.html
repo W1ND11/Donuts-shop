@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Bethany' Donuts Shop!</title>
+    <meta name="author" content="Bethany's Pie Shop">
+    <meta name="description" content="Store front for Bethany's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            margin-top: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #e6e4d9;
+            background-image: url('images/background.jpg');
+        }
+
+        #mainheader {
+            background-color: #660066;
+        }
+
+        #leftmenu {
+            float: left;
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            height: 60px;
+            width: 1000px;
+            margin: 0 auto 20px;
+        }
+
+        .searchbox {
+            padding: 5px;
+            margin: 10px 10px;
+            width: 200px;
+        }
+
+        #main {
+            float: right;
+            width: 70%;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            clear: both;
+            width: 100%;
+        }
+
+        header,
+        section,
+        footer,
+        aside,
+        nav,
+        main,
+        article,
+        figure {
+            display: block;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        nav>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav>ul>li {
+            float: left;
+        }
+
+        nav>ul>li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" height="55" /></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pieoverview.html">All donuts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="width:1000px;margin-left: auto;margin-right: auto;">
+        <aside id="leftmenu">
+            <a href="index.html"><img src="images/logo.png" height="300" width="300" /></a>
+            <header>
+                <h4 style="text-align: center;">Browse our donuts</h4>
+            </header>
+            <ul>
+                <li><a href="pieoverview.html">All donuts</a></li>
+            </ul>
+            <input type="search" class="searchbox" placeholder="Search our store" />
+
+        </aside>
+        <main id="main">
+            <table >
+                <caption>
+                    Our delicious selection of donuts for you to enjoy!
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Donuts name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/products/yeast.jpg" width="100" height="100"></td>
+                        <td>Yeast Donuts</td>
+                        <td>Plain Yeast Donuts. Plain pleasure.</td>
+                        <td>$3.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/cake.jpg" width="100" height="100"></td>
+                        <td>Cake Donuts</td>
+                        <td>Our famous Cake Donuts</td>
+                        <td>$4.95</td>
+                        <td><a href="applepie.html" target="_blank">View details</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/holes.jpg" width="100" height="100"></td>
+                        <td>Donut Holes</td>
+                        <td>A Christmas favorite</td>
+                        <td>$4.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/lj.jpg" width="100" height="100"></td>
+                        <td>Long John Donuts</td>
+                        <td>A summer classic!</td>
+                        <td>5.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/spudnuts.jpg" width="100" height="100"></td>
+                        <td>Spudnuts</td>
+                        <td>Sweet as peach</td>
+                        <td>$3.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/crullers.jpg" width="100" height="100"></td>
+                        <td>Crullers</td>
+                        <td>Our Halloween favorite</td>
+                        <td>$4.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/gourmet.jpg" width="100" height="100"></td>
+                        <td>Gourmet Donuts</td>
+                        <td>Happy holidays!</td>
+                        <td>$4.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/healthy.jpg" width="100" height="100"></td>
+                        <td>Healthy Donuts</td>
+                        <td>You'll love it!</td>
+                        <td>$5.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/filled.jpg" width="100" height="100"></td>
+                        <td>Filled Donuts</td>
+                        <td>My God, so sweet!</td>
+                        <td>$3.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/drop.jpg" width="100" height="100"></td>
+                        <td>Drop Doughnuts</td>
+                        <td>Our delicious!</td>
+                        <td>$4.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/products/potato.jpg" width="100" height="100"></td>
+                        <td>Potato Donuts</td>
+                        <td>One of the best Doughnuts you'll ever find!</td>
+                        <td>$5.95</td>
+                        <td>View details</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        
+        </main>
+        <footer>
+            <p>Our address is <address>Bethany's Donuts Shop - Bakery Street 555 Brussels Belgium</address>
+            </p>
+            <small>2020 Bethany's Donuts Shop - All rights reserved</small>
+        </footer>
+    </div>
+
+</body>
+
+</html>
